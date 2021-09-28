@@ -11,7 +11,7 @@
         <!--Days of the Week-->
         <scene sceneID="FYx-k2-nwE">
             <objects>
-                <tableViewController id="GfB-rJ-1EY" sceneMemberID="viewController">
+                <tableViewController id="GfB-rJ-1EY" customClass="TableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="fM2-ln-GD9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,8 +73,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9p-nK-OFK">
-                                <rect key="frame" x="186" y="199" width="42" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9p-nK-OFK">
+                                <rect key="frame" x="12" y="199" width="390" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -83,12 +83,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U9p-nK-OFK" secondAttribute="trailing" constant="186" id="U90-CP-78a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U9p-nK-OFK" secondAttribute="trailing" constant="12" id="U90-CP-78a"/>
                             <constraint firstItem="U9p-nK-OFK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="111" id="f6f-TX-dX0"/>
-                            <constraint firstItem="U9p-nK-OFK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="186" id="ne1-7h-RPv"/>
+                            <constraint firstItem="U9p-nK-OFK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="ne1-7h-RPv"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="FSr-Br-ZbC"/>
+                    <connections>
+                        <outlet property="funFactLabel" destination="U9p-nK-OFK" id="Jbc-KG-ZWv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

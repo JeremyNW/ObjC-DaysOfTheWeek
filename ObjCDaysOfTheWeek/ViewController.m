@@ -15,7 +15,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.title = self.day.name;
+    self.funFactLabel.text = self.day.funFact;
 }
 
 

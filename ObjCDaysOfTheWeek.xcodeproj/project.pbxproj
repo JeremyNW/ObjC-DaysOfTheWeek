@@ -15,6 +15,8 @@
 		1F508D3F270349EF000206EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F508D3D270349EF000206EE /* LaunchScreen.storyboard */; };
 		1F508D42270349EF000206EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F508D41270349EF000206EE /* main.m */; };
 		1F9AC57C27034CF7000A9102 /* JWDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AC57B27034CF7000A9102 /* JWDay.m */; };
+		1F9AC57F270350F1000A9102 /* JWDayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AC57E270350F1000A9102 /* JWDayManager.m */; };
+		1F9AC582270356FD000A9102 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AC581270356FD000A9102 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		1F508D41270349EF000206EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F9AC57A27034CF7000A9102 /* JWDay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWDay.h; sourceTree = "<group>"; };
 		1F9AC57B27034CF7000A9102 /* JWDay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWDay.m; sourceTree = "<group>"; };
+		1F9AC57D270350F1000A9102 /* JWDayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWDayManager.h; sourceTree = "<group>"; };
+		1F9AC57E270350F1000A9102 /* JWDayManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWDayManager.m; sourceTree = "<group>"; };
+		1F9AC580270356FD000A9102 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		1F9AC581270356FD000A9102 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,10 @@
 				1F508D36270349EF000206EE /* ViewController.m */,
 				1F9AC57A27034CF7000A9102 /* JWDay.h */,
 				1F9AC57B27034CF7000A9102 /* JWDay.m */,
+				1F9AC57D270350F1000A9102 /* JWDayManager.h */,
+				1F9AC57E270350F1000A9102 /* JWDayManager.m */,
+				1F9AC580270356FD000A9102 /* TableViewController.h */,
+				1F9AC581270356FD000A9102 /* TableViewController.m */,
 				1F508D38270349EF000206EE /* Main.storyboard */,
 				1F508D40270349EF000206EE /* Info.plist */,
 			);
@@ -163,7 +173,9 @@
 				1F508D37270349EF000206EE /* ViewController.m in Sources */,
 				1F9AC57C27034CF7000A9102 /* JWDay.m in Sources */,
 				1F508D31270349EF000206EE /* AppDelegate.m in Sources */,
+				1F9AC57F270350F1000A9102 /* JWDayManager.m in Sources */,
 				1F508D42270349EF000206EE /* main.m in Sources */,
+				1F9AC582270356FD000A9102 /* TableViewController.m in Sources */,
 				1F508D34270349EF000206EE /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
