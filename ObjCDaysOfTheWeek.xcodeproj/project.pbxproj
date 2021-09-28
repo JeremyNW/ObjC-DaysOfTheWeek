@@ -14,6 +14,7 @@
 		1F508D3C270349EF000206EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F508D3B270349EF000206EE /* Assets.xcassets */; };
 		1F508D3F270349EF000206EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F508D3D270349EF000206EE /* LaunchScreen.storyboard */; };
 		1F508D42270349EF000206EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F508D41270349EF000206EE /* main.m */; };
+		1F9AC57C27034CF7000A9102 /* JWDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AC57B27034CF7000A9102 /* JWDay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		1F508D3E270349EF000206EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F508D40270349EF000206EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F508D41270349EF000206EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F9AC57A27034CF7000A9102 /* JWDay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWDay.h; sourceTree = "<group>"; };
+		1F9AC57B27034CF7000A9102 /* JWDay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWDay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +64,29 @@
 		1F508D2E270349EF000206EE /* ObjCDaysOfTheWeek */ = {
 			isa = PBXGroup;
 			children = (
+				1F9AC57927034A4D000A9102 /* Resources */,
+				1F508D35270349EF000206EE /* ViewController.h */,
+				1F508D36270349EF000206EE /* ViewController.m */,
+				1F9AC57A27034CF7000A9102 /* JWDay.h */,
+				1F9AC57B27034CF7000A9102 /* JWDay.m */,
+				1F508D38270349EF000206EE /* Main.storyboard */,
+				1F508D40270349EF000206EE /* Info.plist */,
+			);
+			path = ObjCDaysOfTheWeek;
+			sourceTree = "<group>";
+		};
+		1F9AC57927034A4D000A9102 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F508D3B270349EF000206EE /* Assets.xcassets */,
+				1F508D41270349EF000206EE /* main.m */,
 				1F508D2F270349EF000206EE /* AppDelegate.h */,
 				1F508D30270349EF000206EE /* AppDelegate.m */,
 				1F508D32270349EF000206EE /* SceneDelegate.h */,
 				1F508D33270349EF000206EE /* SceneDelegate.m */,
-				1F508D35270349EF000206EE /* ViewController.h */,
-				1F508D36270349EF000206EE /* ViewController.m */,
-				1F508D38270349EF000206EE /* Main.storyboard */,
-				1F508D3B270349EF000206EE /* Assets.xcassets */,
 				1F508D3D270349EF000206EE /* LaunchScreen.storyboard */,
-				1F508D40270349EF000206EE /* Info.plist */,
-				1F508D41270349EF000206EE /* main.m */,
 			);
-			path = ObjCDaysOfTheWeek;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +116,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = JW;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					1F508D2B270349EF000206EE = {
@@ -147,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F508D37270349EF000206EE /* ViewController.m in Sources */,
+				1F9AC57C27034CF7000A9102 /* JWDay.m in Sources */,
 				1F508D31270349EF000206EE /* AppDelegate.m in Sources */,
 				1F508D42270349EF000206EE /* main.m in Sources */,
 				1F508D34270349EF000206EE /* SceneDelegate.m in Sources */,
